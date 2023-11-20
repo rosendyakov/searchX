@@ -1,0 +1,17 @@
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 5rem;
+
+  .content {
+
+    max-width: 500px;
+    width: 100%;
+
+    h1 {
+      text-align: center;
+    }
+  }
+}

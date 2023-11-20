@@ -1,0 +1,28 @@
+.inputContainer {
+  background-color: #fff;
+
+  padding: 0.3rem 0.7rem;
+
+  display: flex;
+  align-items: center;
+
+  .inputBar {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    outline-width: 0;
+
+  }
+
+  .actions {
+    display: flex;
+    gap: 0.5rem;
+
+    .clearButton {
+      background-color: transparent;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+    }
+  }
+}

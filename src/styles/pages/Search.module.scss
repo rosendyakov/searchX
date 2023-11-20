@@ -1,0 +1,25 @@
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 5rem;
+
+  .content {
+
+
+    max-width: 500px;
+    width: 100%;
+
+    h1 {
+      text-align: center;
+    }
+
+    .search {
+      border-radius: 20px;
+      border: 1px solid lightgray;
+      padding: 0.3rem 0.7rem;
+
+    }
+  }
+}
